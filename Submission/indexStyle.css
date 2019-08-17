@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Halant&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merienda+One&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.header {
+	background-image: url(img/headerbackg.jpg);
+	width: 100%;
+	height: 620px;
+	text-align: center;
+	letter-spacing: 5px;
+	
+}
+
+.header p {
+	font-family: 'Halant', serif;
+	font-size: 30px;
+}
+
+.header h1 {
+	font-size: 50px;
+	font-family: 'Merienda One', cursive;
+}
+
+.header p, h1 {
+	position: relative;
+	top: 200px;
+}
+
+.grouping {
+	width: 100%;
+	height: 250px;
+	padding-top: 50px;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+}
+
+.grouping div {
+	width: 400px;
+	height: 400px;
+}
+
+.grouping div div {
+	width: 150px;
+	height: 200px;
+	text-align: center;
+	background-color: yellow;
+	float: left;
+}
+
+img#travel, img#books, img#academic {
+	width: 150px;
+	height: 200px;
+}
+
+.grouping div div figure {
+	position: relative;
+	top: 30px;
+}
+
+.grouping div div figure a:hover {
+	color: green;
+	opacity: 0.6;
+}
+
+.grouping div img:second-child {
+	width: 150px;
+	height: 200px;
+}
+
+.main {
+	width: 100%;
+	text-align: center;	
+	margin: 0px auto;
+	padding: 70px 0;
+	display: flex;
+	justify-content: center;
+	background-color: #b7c9b8;	
+}
+
+body h2 {
+	text-align: center;
+	font-family: 'Merienda One', cursive;
+	margin-top: 20px;
+	margin-bottom: -20px;
+	letter-spacing: 3px;	
+}
+
+.main div {
+	width: 500px;
+	margin: 0px 20px;
+	text-align: center;
+	font-family: 'Halant', serif;
+}
+
+.main figure a:hover {
+	opacity: 0.5;
+	color: #1f487a;
+}
+
+.main img {
+	width: 400px;
+	height: 250px;
+	border-radius: 25px;
+}
+
+.footer {
+	width: 100%;
+	height: 250px;
+	background-color: #3f3f45;
+	display: flex;
+	justify-content: center;
+	color: white;
+	font-family: 'Halant', serif;
+}
+
+.footer div {
+	width: 350px;
+	margin: 20px 30px;
+	text-align: justify;
+}
+
+.footer div h3 {
+	margin-bottom: 20px;
+	letter-spacing: 3px;
+}
+
+#about img {
+	width: 130px;
+	height: 130px;
+	border-radius: 100%;
+	float: left;
+	margin-right: 20px;
+}
+
+#contact img {
+	margin: 5px;
+}
+
+#contact img:hover {
+	opacity: 0.5;
+}
